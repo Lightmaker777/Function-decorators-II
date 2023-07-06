@@ -17,7 +17,7 @@ def validate_numeric(func):
 
 def debug(func):
     def wrap(*args, **kwargs):
-        print("**********")
+        print(" 🔥 🔥 🔥 🔥 🔥 ")
         if args:
             print(f"Positional arguments: {', '.join(map(str, args))}")
         else:
